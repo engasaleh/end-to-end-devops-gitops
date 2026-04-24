@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: devops-ingress
 spec:
-  ingressClassName: nginx   # 🔥 أهم سطر
+  ingressClassName: nginx   # this is the classname for nginx
   rules:
     - host: devops.local
       http:
